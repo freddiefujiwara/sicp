@@ -1,0 +1,7 @@
+(define (squares-of-the-2-lager a b c) 
+    (define (smaller) 
+      (if (< a b) a b))
+    (define (smallest) 
+      (if (< (smaller) c) (smaller) c))
+    (- (+ (* a a) (* b b) (* c c)) (* (smallest) (smallest)))
+)
