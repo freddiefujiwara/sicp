@@ -6,3 +6,5 @@
 
 * SICP
  http://mitpress.mit.edu/sicp/
+* Requirement
+  (> gosh 0.9.3.2)
