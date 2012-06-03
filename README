@@ -7,4 +7,4 @@
 * SICP
  http://mitpress.mit.edu/sicp/
 * Requirement
-  Gauche scheme shell > version 0.9.3.3
+  (> gosh 0.9.3.2)

@@ -1,0 +1,12 @@
+(use gauche.test)
+
+(add-load-path ".")
+(load "1.11")
+(test-start "f")
+(test "(f 1)" 1  (lambda ()  (f 1)))
+(test "(f 2)" 2  (lambda ()  (f 2)))
+(test "(f 3)" 4  (lambda ()  (f 3)))
+(test "(f 4)" 11 (lambda ()  (f 4)))
+(test "(f 5)" 25 (lambda ()  (f 5)))
+(test "(f 6)" 59 (lambda ()  (f 6)))
+(test-end :exit-on-failure #t)
